@@ -1,6 +1,7 @@
 # CFArrayEx
 Swift wrapper around CFArray.
 
+```swift
 struct CFArrayEx<Element>: MutableCollection {
   init(ref: CFRef)
   var startIndex: Int { get }
@@ -8,3 +9,4 @@ struct CFArrayEx<Element>: MutableCollection {
   var count: Int { get }
   subscript(index: Int) -> Element { get set }
 }
+```
